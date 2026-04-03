@@ -59,15 +59,15 @@ SatStat is an open source station monitor for QO-100 (Es'hail-2) satellite opera
 
 ## Hardware Required
 
-- ESP32-C5 development board
+- ESP32-C5 development board (a 2.4 ghz board will NOT work for obvious reasons)!
 - DXPatrol QO-100 amplifier (or similar with sense output)
 - 2x INA219 I2C current/voltage sensor modules (addresses 0x41 and 0x44)
 - 2x DS18B20 temperature sensors (OneWire)
-- 1x relay module for PTT inhibit
+- 1x 12v relay module for PTT inhibit
 - 1x Buck converter to power the ESP32C5
 - Resistors: 1kΩ, 2kΩ, 1kΩ (voltage divider for sense lines)
 - Enclosure of your choice
-- DC power supply
+- DC power supply from either your amp or transverter cia buck converter to power the ESP32C5
 
 ---
 
