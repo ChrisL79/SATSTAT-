@@ -5,14 +5,14 @@ SATSTAT is an open source station monitor for QO-100 (Es'hail-2) satellite opera
 
 ---
 
-![SATSTAT Browser Interface](images/1.jpg)
-![SATSTAT Windows App](images/2.jpg)
+![SATSTAT Browser Interface](1.jpg)
+![SATSTAT Windows App](2.jpg)
 
 ---
 
 ## Demo Video
 
-[▶ Watch SATSTAT Windows App in Action](images/VIDEO.mp4)
+[▶ Watch SATSTAT Windows App in Action](VIDEO.mp4)
 
 ---
 
@@ -34,26 +34,26 @@ SATSTAT is an open source station monitor for QO-100 (Es'hail-2) satellite opera
 
 ## The Station
 
-![SATSTAT in its enclosure](images/3.jpg)
-![SATSTAT enclosure](images/4.jpg)
-![SATSTAT enclosure](images/5.jpg)
-![SATSTAT enclosure](images/6.jpg)
-![SATSTAT enclosure](images/7.jpg)
+![SATSTAT in its enclosure](3.jpg)
+![SATSTAT enclosure](4.jpg)
+![SATSTAT enclosure](5.jpg)
+![SATSTAT enclosure](6.jpg)
+![SATSTAT enclosure](7.jpg)
 
-![Transverter](images/8.jpg)
-![Transverter](images/9.jpg)
-![Transverter](images/10.jpg)
-![Transverter](images/11.jpg)
-![Transverter](images/12.jpg)
+![Transverter](8.jpg)
+![Transverter](9.jpg)
+![Transverter](10.jpg)
+![Transverter](11.jpg)
+![Transverter](12.jpg)
 
-![QO-100 Dish and Station Setup](images/13.jpg)
-![QO-100 Dish and Station Setup](images/14.jpg)
-![QO-100 Dish and Station Setup](images/15.jpg)
-![QO-100 Dish and Station Setup](images/16.jpg)
-![QO-100 Dish and Station Setup](images/17.jpg)
-![QO-100 Dish and Station Setup](images/18.jpg)
+![QO-100 Dish and Station Setup](13.jpg)
+![QO-100 Dish and Station Setup](14.jpg)
+![QO-100 Dish and Station Setup](15.jpg)
+![QO-100 Dish and Station Setup](16.jpg)
+![QO-100 Dish and Station Setup](17.jpg)
+![QO-100 Dish and Station Setup](18.jpg)
 
-![Amplifier Calibration](images/19.jpg)
+![Amplifier Calibration](19.jpg)
 
 ---
 
@@ -72,15 +72,15 @@ SATSTAT is an open source station monitor for QO-100 (Es'hail-2) satellite opera
 
 ## Schematic
 
-![SATSTAT Schematic](images/SatStat%20Schematic.pdf)
+![SATSTAT Schematic](SatStat%20Schematic.pdf)
 
-The full schematic is available in the images folder: [SatStat Schematic.pdf](images/SatStat%20Schematic.pdf)
+Full schematic: [SatStat Schematic.pdf](SatStat%20Schematic.pdf)
 
 ---
 
 ## ESP32-C5 Pin Assignments
 
-![ESP32-C5 Pinout](images/ESP32C5%20PINOUT.jpg)
+![ESP32-C5 Pinout](ESP32C5%20PINOUT.jpg)
 
 | GPIO | Function |
 |------|----------|
@@ -138,16 +138,6 @@ The SATSTAT Windows application automatically discovers your ESP32 on the local 
 2. Run the installer and follow the on screen instructions
 3. Launch SATSTAT from your desktop or Start Menu
 4. The app will automatically find your ESP32 on the network
-
-### Building from Source
-
-Requirements: [Node.js](https://nodejs.org)
-
-```
-npm install
-npm start          # Run in development mode
-npm run dist       # Build Windows installer
-```
 
 ---
 
