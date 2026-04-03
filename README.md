@@ -1,7 +1,7 @@
 # SATSTAT QO-100 Station Monitor
 ### By Chris Lawton M7JEX — Made with love in Somerset, United Kingdom
 
-SATSTAT is an open source station monitor for QO-100 (Es'hail-2) satellite operators. It connects to a DXPatrol QO-100 amplifier via an ESP32-C5 microcontroller and provides real time monitoring of your station over WiFi through any web browser or the dedicated Windows desktop application.
+SatStat is an open source station monitor for QO-100 (Es'hail-2) satellite operators. It connects to a DXPatrol QO-100 amplifier via an ESP32-C5 microcontroller and provides real time monitoring of your station over WiFi through any web browser or the dedicated Windows desktop application.
 
 ---
 
@@ -21,14 +21,14 @@ SATSTAT is an open source station monitor for QO-100 (Es'hail-2) satellite opera
 - Live forward and reflected power metering with peak hold
 - SWR monitoring
 - Dual DS18B20 temperature monitoring (amplifier and transverter)
-- Dual INA219 voltage and current monitoring
+- Dual INA219 voltage and current monitoring (amplifier and transverter)
 - PTT inhibit relay control
 - WiFi signal strength and ESP32 temperature monitoring
 - Dark mode
 - OTA (Over The Air) firmware updates — no USB cable needed after first flash
 - Captive portal WiFi setup — no code editing required
 - Windows desktop application with automatic network discovery
-- Fully calibratable via browser interface
+- Fully calibratable via browser interface or Windows program
 
 ---
 
@@ -111,11 +111,11 @@ Full schematic: [SatStat Schematic.pdf](SatStat%20Schematic.pdf)
 ### First Time WiFi Setup
 
 1. On first boot the ESP32 creates a WiFi access point named **SATSTAT-Setup**
-2. Connect to **SATSTAT-Setup** from your phone or PC
+2. Connect to **SATSTAT-Setup** from your phone browser, PC browser or the SatStat Windows program
 3. A captive portal will appear — enter your home WiFi credentials
 4. The ESP32 will connect to your network and restart
 5. Open a browser and navigate to the ESP32 IP address
-6. Complete the station setup screen (callsign, locator, calibration tables)
+6. Complete the station setup screen (callsign, locator, calibration tables if needed)
 
 ### OTA Updates
 
@@ -155,6 +155,7 @@ For the new version DXPatrol amp the REF sense output is:
 
 Enter your own measured values for accurate reflected power readings.
 
+
 ### ADC Calibration Factors
 
 Three calibration factors correct for ESP32 ADC non-linearity across the voltage range. Adjust these in the setup screen if your power readings are inaccurate.
@@ -164,7 +165,7 @@ Three calibration factors correct for ESP32 ADC non-linearity across the voltage
 ## Notes
 
 - Default lookup tables are calibrated for the DXPatrol QO-100 amplifier
-- If your REF bar reads high into a dummy load your amp's directional coupler may have poor isolation — this is a known issue with some older units
+- If your REF bar reads high into a dummy load your amp's directional coupler may have poor isolation — this is a known issue with some units (mine included)!
 - The quality of DXPatrol amps is not consistent between units — measure and calibrate your own
 - Thanks to Mike M0ABR for the watts/volts dataset and use of the power meter
 
