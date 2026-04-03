@@ -1,7 +1,7 @@
 # SATSTAT QO-100 Station Monitor
 ### By Chris Lawton M7JEX
 
-SatStat is an open source station monitor for QO-100 (Es'hail-2) satellite operators. It connects to a DXPatrol QO-100 amplifier via an ESP32-C5 microcontroller and provides real time monitoring of your station over WiFi through any web browser or the dedicated Windows desktop application.
+SatStat is an open source station monitor for QO-100 (Es'hail-2) satellite operators. It connects to a DXPatrol QO-100 amplifier via an ESP32-C5 microcontroller, (or any other amp with a voltage sense wire for FWD and REf power) and provides real time monitoring of your station over WiFi through any web browser or the dedicated Windows desktop application.
 
 ---
 
