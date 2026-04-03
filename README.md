@@ -25,8 +25,8 @@ SatStat is an open source station monitor for QO-100 (Es'hail-2) satellite opera
 - PTT inhibit relay control
 - WiFi signal strength and ESP32 temperature monitoring
 - Dark mode
-- OTA (Over The Air) firmware updates — no USB cable needed after first flash
-- Captive portal WiFi setup — no code editing required
+- OTA firmware updates. No USB cable needed after first flash
+- Captive portal WiFi setup. No code editing required
 - Windows desktop application with automatic network discovery
 - Fully calibratable via browser interface or Windows program
 
@@ -64,6 +64,7 @@ SatStat is an open source station monitor for QO-100 (Es'hail-2) satellite opera
 - 2x INA219 I2C current/voltage sensor modules (addresses 0x41 and 0x44)
 - 2x DS18B20 temperature sensors (OneWire)
 - 1x relay module for PTT inhibit
+- 1x Buck converter to power the ESP32C5
 - Resistors: 1kΩ, 2kΩ, 1kΩ (voltage divider for sense lines)
 - Enclosure of your choice
 - DC power supply
@@ -111,7 +112,7 @@ Full schematic: [SatStat Schematic.pdf](SatStat%20Schematic.pdf)
 ### First Time WiFi Setup
 
 1. On first boot the ESP32 creates a WiFi access point named **SATSTAT-Setup**
-2. Connect to **SATSTAT-Setup** from your phone browser, PC browser or the SatStat Windows program
+2. Connect to **SATSTAT-Setup** from your phone browser or PC
 3. A captive portal will appear — enter your home WiFi credentials
 4. The ESP32 will connect to your network and restart
 5. Open a browser and navigate to the ESP32 IP address
