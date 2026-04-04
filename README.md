@@ -79,7 +79,7 @@ Full schematic: [SatStat Schematic](SatStat%20Schematic.jpg)
 
 ## ESP32-C5 Pin Assignments
 
-![ESP32-C5 Pinout](IMAGES/ESP32C5_PINOUT.jpg)
+![ESP32-C5 Pinout](ESP32C5%20PINOUT.jpg)
 
 | GPIO | Function |
 |------|----------|
