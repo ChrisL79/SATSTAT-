@@ -71,15 +71,15 @@ SatStat is an open source station monitor for QO-100 (Es'hail-2) satellite opera
 
 ## Schematic
 
-![SATSTAT Schematic](IMAGES/SatStat%20Schematic.jpg)
+![SATSTAT Schematic](SatStat%20Schematic.jpg)
 
-Full schematic: [SatStat Schematic.jpg](IMAGES/SatStat%20Schematic.jpg)
+Full schematic: [SatStat Schematic](SatStat%20Schematic.jpg)
 
 ---
 
 ## ESP32-C5 Pin Assignments
 
-![ESP32-C5 Pinout](IMAGES/ESP32C5%20PINOUT.jpg)
+![ESP32-C5 Pinout](IMAGES/ESP32C5_PINOUT.jpg)
 
 | GPIO | Function |
 |------|----------|
