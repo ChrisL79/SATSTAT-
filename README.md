@@ -102,8 +102,9 @@ Full schematic: [SatStat Schematic](SatStat%20Schematic.jpg)
 3. Install the following libraries via Arduino IDE Library Manager (Tools → Manage Libraries):
    - **Adafruit INA219** by Adafruit
    - **WiFiManager** by tzapu
-   - **OneWireNg** by pstolarz
-   - **DSTherm** by pstolarz (included with OneWireNg)
+   - **OneWireNg** by pstolarz (DSTherm and Placeholder are included within this library)
+
+   All other includes (WiFi, WebServer, Wire, SPIFFS, ArduinoOTA etc.) are built into the ESP32 board support package and do not need separate installation.
 4. Open `satstat.ino` in Arduino IDE
 5. Select your ESP32-C5 board
 6. Flash to your ESP32-C5 via USB
