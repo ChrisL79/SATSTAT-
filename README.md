@@ -12,7 +12,7 @@ SatStat is an open source station monitor for QO-100 (Es'hail-2) satellite opera
 
 ## Demo Video
 
-[▶ Watch SATSTAT Windows App in Action](VIDEO.mp4)
+![SATSTAT Windows App in Action](VIDEO.gif)
 
 ---
 
@@ -67,15 +67,15 @@ SatStat is an open source station monitor for QO-100 (Es'hail-2) satellite opera
 - 1x Buck converter to power the ESP32C5
 - Resistors: 1kΩ, 2kΩ, 1kΩ (voltage divider for sense lines)
 - Enclosure of your choice
-- DC power supply from either your amp or transverter cia buck converter to power the ESP32C5
+- DC power supply from either your amp or transverter via buck converter to power the ESP32C5
 
 ---
 
 ## Schematic
 
-![SATSTAT Schematic](SatStat%20Schematic.pdf)
+![SATSTAT Schematic](SatStat%20Schematic.jpg)
 
-Full schematic: [SatStat Schematic.pdf](SatStat%20Schematic.pdf)
+Full schematic: [SatStat Schematic.jpg](SatStat%20Schematic.jpg)
 
 ---
 
@@ -155,7 +155,6 @@ For the new version DXPatrol amp the REF sense output is:
 - **4.0V at infinite SWR**
 
 Enter your own measured values for accurate reflected power readings.
-
 
 ### ADC Calibration Factors
 
