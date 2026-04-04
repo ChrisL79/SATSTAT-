@@ -5,14 +5,12 @@ SatStat is an open source station monitor for QO-100 (Es'hail-2) satellite opera
 
 ---
 
-![SATSTAT Browser Interface](IMAGES/1.jpg)
-![SATSTAT Windows App](IMAGES/2.jpg)
+![SATSTAT Windows App in Action](VIDEO.gif)
 
 ---
 
-## Demo Video
-
-![SATSTAT Windows App in Action](IMAGES/VIDEO.gif)
+![SATSTAT Browser Interface](IMAGES/1.jpg)
+![SATSTAT Windows App](IMAGES/2.jpg)
 
 ---
 
