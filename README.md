@@ -5,14 +5,14 @@ SatStat is an open source station monitor for QO-100 (Es'hail-2) satellite opera
 
 ---
 
-![SATSTAT Browser Interface](1.jpg)
-![SATSTAT Windows App](2.jpg)
+![SATSTAT Browser Interface](images/1.jpg)
+![SATSTAT Windows App](images/2.jpg)
 
 ---
 
 ## Demo Video
 
-![SATSTAT Windows App in Action](VIDEO.gif)
+![SATSTAT Windows App in Action](images/VIDEO.gif)
 
 ---
 
@@ -34,26 +34,26 @@ SatStat is an open source station monitor for QO-100 (Es'hail-2) satellite opera
 
 ## The Station
 
-![SATSTAT in its enclosure](3.jpg)
-![SATSTAT enclosure](4.jpg)
-![SATSTAT enclosure](5.jpg)
-![SATSTAT enclosure](6.jpg)
-![SATSTAT enclosure](7.jpg)
+![SATSTAT in its enclosure](images/3.jpg)
+![SATSTAT enclosure](images/4.jpg)
+![SATSTAT enclosure](images/5.jpg)
+![SATSTAT enclosure](images/6.jpg)
+![SATSTAT enclosure](images/7.jpg)
 
-![Transverter](8.jpg)
-![Transverter](9.jpg)
-![Transverter](10.jpg)
-![Transverter](11.jpg)
-![Transverter](12.jpg)
+![Transverter](images/8.jpg)
+![Transverter](images/9.jpg)
+![Transverter](images/10.jpg)
+![Transverter](images/11.jpg)
+![Transverter](images/12.jpg)
 
-![QO-100 Dish and Station Setup](13.jpg)
-![QO-100 Dish and Station Setup](14.jpg)
-![QO-100 Dish and Station Setup](15.jpg)
-![QO-100 Dish and Station Setup](16.jpg)
-![QO-100 Dish and Station Setup](17.jpg)
-![QO-100 Dish and Station Setup](18.jpg)
+![QO-100 Dish and Station Setup](images/13.jpg)
+![QO-100 Dish and Station Setup](images/14.jpg)
+![QO-100 Dish and Station Setup](images/15.jpg)
+![QO-100 Dish and Station Setup](images/16.jpg)
+![QO-100 Dish and Station Setup](images/17.jpg)
+![QO-100 Dish and Station Setup](images/18.jpg)
 
-![Amplifier Calibration](19.jpg)
+![Amplifier Calibration](images/19.jpg)
 
 ---
 
@@ -73,15 +73,15 @@ SatStat is an open source station monitor for QO-100 (Es'hail-2) satellite opera
 
 ## Schematic
 
-![SATSTAT Schematic](SatStat%20Schematic.jpg)
+![SATSTAT Schematic](images/SatStat%20Schematic.jpg)
 
-Full schematic: [SatStat Schematic.jpg](SatStat%20Schematic.jpg)
+Full schematic: [SatStat Schematic.jpg](images/SatStat%20Schematic.jpg)
 
 ---
 
 ## ESP32-C5 Pin Assignments
 
-![ESP32-C5 Pinout](ESP32C5%20PINOUT.jpg)
+![ESP32-C5 Pinout](images/ESP32C5%20PINOUT.jpg)
 
 | GPIO | Function |
 |------|----------|
