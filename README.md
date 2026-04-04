@@ -99,10 +99,11 @@ Full schematic: [SatStat Schematic](SatStat%20Schematic.jpg)
 
 1. Install [Arduino IDE](https://www.arduino.cc/en/software)
 2. Add ESP32 board support in Arduino IDE
-3. Install the following libraries:
-   - Adafruit INA219
-   - OneWireNg
-   - WiFiManager
+3. Install the following libraries via Arduino IDE Library Manager (Tools → Manage Libraries):
+   - **Adafruit INA219** by Adafruit
+   - **WiFiManager** by tzapu
+   - **OneWireNg** by pstolarz
+   - **DSTherm** by pstolarz (included with OneWireNg)
 4. Open `satstat.ino` in Arduino IDE
 5. Select your ESP32-C5 board
 6. Flash to your ESP32-C5 via USB
